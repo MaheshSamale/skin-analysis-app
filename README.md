@@ -53,19 +53,13 @@ cd skin-analysis-app
 2. 🔑 Set up Environment Variables
 Create a .env file in the root directory:
 
-env
-Copy
-Edit
+
 REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
 3. 📦 Install Dependencies
-bash
-Copy
-Edit
+
 npm install
 4. 🧪 Run the App
-bash
-Copy
-Edit
+
 npm start
 This will start the React development server on http://localhost:3000.
 
