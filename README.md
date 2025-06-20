@@ -50,20 +50,26 @@ Edit
 ```bash
 git clone https://github.com/<your-username>/skin-analysis-app.git
 cd skin-analysis-app
-2. 🔑 Set up Environment Variables
+
+**2. 🔑 Set up Environment Variables**
+
 Create a .env file in the root directory:
-
-
+```bash
 REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
-3. 📦 Install Dependencies
+**3. 📦 Install Dependencies**
 
+```bash
 npm install
-4. 🧪 Run the App
 
+**4. 🧪 Run the App**
+
+```bash
 npm start
+
 This will start the React development server on http://localhost:3000.
 
-🔍 Usage
+**🔍 Usage**
+
 Upload an image or use your webcam to capture one.
 
 Click Analyze Skin.
@@ -72,7 +78,8 @@ Wait a few seconds while Gemini analyzes your skin.
 
 View your analysis result and skincare suggestions.
 
-🛠 Technologies Used
+**🛠 Technologies Used**
+
 React.js – UI framework
 
 CSS3 – Styling & animations
@@ -81,7 +88,7 @@ Webcam.js – Camera capture
 
 Gemini Flash API – Skin analysis AI
 
-🌈 Styling Highlights
+**🌈 Styling Highlights**
 🎨 Purple gradient buttons
 
 🖼️ 3D drag-and-drop uploader
